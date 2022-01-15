@@ -1,0 +1,3 @@
+# /etc/dnsmasq.d/vnet
+dhcp-range=10.10.10.3,10.10.10.100,12h
+dhcp-option=option:dns-server,10.10.10.2
